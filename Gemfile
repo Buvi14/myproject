@@ -60,7 +60,7 @@ group :test do
   # Easy installation and use of chromedriver to run system tests with Chrome
   gem 'chromedriver-helper'
 end
-group :development do
+group :production do
   gem 'pg'
 end
 # Windows does not include zoneinfo files, so bundle the tzinfo-data gem
